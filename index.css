@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-family: montserrat;
+  background-image: linear-gradient(rgb(197, 7, 197), purple);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+#scoreboard {
+  font-size: 6em;
+  margin: 0;
+  opacity: 10%;
+}
+
+.teamsides {
+  display: flex;
+  justify-content: space-around;
+}
+
+.teamsides h1 {
+  font-size: 4.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.scorebox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  padding-top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fle {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-cont {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 11em;
+  width: 30em;
+  color: purple;
+  border-radius: 8px;
+}
+
+.home-cont p {
+  margin: 0;
+  font-size: 8em;
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.btn p {
+  width: 8em;
+  padding: 5px;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: default;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 86%;
+  padding: 5px 0;
+  border: 3px solid white;
+  border-radius: 15px;
+  font-size: 2em;
+  font-weight: 400;
+  cursor: default; 
+}
+
+
+@media screen and ( max-width: 700px ) {
+
+  body {
+    padding-top: 30px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  #scoreboard {
+    font-size: 3.5em;
+    opacity: 15%;
+  } 
+
+  .teamsides h1 {
+    font-size: 2.8em;
+    font-weight: 400;
+  }
+
+  .scores {
+    width: 100%;
+    align-items: center;
+  }
+
+  .home-cont {
+    width: 13em;
+  }
+
+
+
+  .btn p {
+    width: 3em;
+    font-size: 1em;
+  }
+
+  .reset {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and ( max-width: 1060px ) and ( min-width: 701px) {
+
+  body {
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #scoreboard {
+    font-size: 5.5em;
+    opacity: 15%;
+    margin-top: 0;
+  } 
+
+  .teamsides h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+  }
+
+  .scores {
+    width: 100%;
+    align-items: center;
+  }
+
+  .home-cont {
+    width: 20em;
+  }
+
+
+
+  .btn p {
+    width: 3em;
+    font-size: 1em;
+  }
+
+  .reset {
+    font-size: 1.5em;
+  }
+}
